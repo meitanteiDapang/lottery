@@ -45,9 +45,17 @@ The  menu of program(all included in view.c) and prompt  were  all done in Chine
 ## How to use it
 You  need firstly go to the lottery directory.
 Run
+
     make clean
-    make deldata (choice, just delete the data of mine, or maybe you want to see my data. tips: 32bits system will not read my data correctly, )
+    
+    make deldata (alternative, just delete the data of mine, or maybe you want to see my data. tips: 32bits system will not read my data correctly, )
+    
     make
+    
+    ./bin/lottery
+    
+If you are using mac OSX,you could run the excuteable file directly:
+
     ./bin/lottery
 
 
